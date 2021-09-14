@@ -9,9 +9,12 @@
   <title></title>
   <style>
     body {
-      margin: 0;
-      padding: 0;
+
       font-family: Montserrat;
+      overflow-x: hidden;
+      overflow-y: scroll;
+
+
     }
 
     ul {
@@ -55,15 +58,11 @@
     .content {
       display: grid;
       grid-template-columns: auto auto;
-      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(500px, 2fr));
 
 
     }
-    .box2 {
-      display: grid;
-      grid-template-columns: auto auto;
-      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    }
+
 
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 600px) {
@@ -75,58 +74,7 @@
 
     }
 
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    @media only screen and (min-width: 600px) {
-      ul {
-        font-size: 0px;
 
-
-
-      }
-
-    }
-
-    /* Medium devices (landscape tablets, 760px and up) */
-    @media only screen and (min-width: 768px) {
-      ul {
-        font-size: 10px;
-
-      }
-
-      .
-    }
-
-
-    /* Medium devices (landscape tablets, 768px and up) */
-    @media only screen and (min-width: 768px) {
-      ul {
-        font-size: 13px;
-
-      }
-
-      .
-    }
-
-    /* Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 992px) {
-      ul {
-        font-size: 15px;
-
-      }
-
-      .
-    }
-
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {
-
-      ul {
-        font-size: 16px;
-
-      }
-
-      .
-    }
 
 .topnav {
   overflow: hidden;
@@ -179,7 +127,7 @@
 
 <body>
   <div id="myLinks" class="box1" style="background-color:#D8EAFE;">
-    <div class="topnav" id="myTopnav" style="padding:40px;">
+    <div class="topnav" id="myTopnav" style="padding:20px;margin-right:40px;">
       <a  style="color:black;font-size:" href="#home" class="active">Digital Agency</a>
       <a style="float:right;color:white;background-color:#5654B3;pading:10px;border-radius:10px;" href="#about">Getting Started</a>
       <a style="float:right;color:black;" href="#contact">Contact</a>
@@ -195,14 +143,15 @@
     </div>
 
 
-    <div class="content">
+    <div class="content" style="">
       <div class="a" style=";justify-content:center;">
-        <h1 style="width:70%;margin:60px;margin-top:130px;text-align:left;"> <span style="color:#2D2C62;"> Grow Your Business With </span> <span style="color:#FA676D;"> Social Media Marketing</span></h1>
-        <p style="width:70%;margin-left:60px;position:relative;bottom:40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-        <p> <a style="margin-left:60px;text-decoration:none;color:white; background-color:#5654b3;padding:9px;border-radius:10px;" href="#">LEARN MORE</a></p>
+        <h1 style="width:70%;margin:30px;margin-top:130px;text-align:left;"> <span style="color:#2D2C62;"> Grow Your Business With </span> <span style="color:#FA676D;"> Social Media Marketing</span></h1>
+        <br>
+        <p style="width:70%;margin-left:30px;position:relative;bottom:40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+        <p> <a style="margin-left:30px;text-decoration:none;color:white; background-color:#5654b3;padding:9px;border-radius:10px;" href="#">LEARN MORE</a></p>
       </div>
-      <div class="b" style="padding:30px;margin-top:40px;">
-        <img style="width:100%;float:right;margin-right:50px;" src="https://i.ibb.co/xFpJCqP/3d.png" alt="">
+      <div class="b" style="margin-top:40px;padding:30px;margin-right:60px;">
+        <img style="width:90%;margin" src="https://i.ibb.co/xFpJCqP/3d.png" alt="">
 
       </div>
 
